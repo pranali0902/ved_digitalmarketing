@@ -233,8 +233,11 @@ const sendEmail = async (e) => {
   <div className="service-row">
     <div className="card">
       <video className="card-video" autoPlay muted loop playsInline>
-        <source src="/website.mp4" type="video/mp4" />
-      </video>
+  <source
+    src={`${import.meta.env.BASE_URL}website.mp4`}
+    type="video/mp4"
+  />
+</video>
     </div>
 
     <div className="card-content">
@@ -250,8 +253,12 @@ const sendEmail = async (e) => {
   <div className="service-row">
     <div className="card">
       <video className="card-video" autoPlay muted loop playsInline>
-        <source src="/content.mp4" type="video/mp4" />
-      </video>
+  <source
+    src={`${import.meta.env.BASE_URL}content.mp4`}
+    type="video/mp4"
+  />
+</video>
+      
     </div>
 
     <div className="card-content">
@@ -267,8 +274,13 @@ const sendEmail = async (e) => {
   <div className="service-row">
     <div className="card">
       <video className="card-video" autoPlay muted loop playsInline>
-        <source src="/graphic.mp4" type="video/mp4" />
-      </video>
+  <source
+    src={`${import.meta.env.BASE_URL}graphic.mp4`}
+    type="video/mp4"
+  />
+</video>
+     
+      
     </div>
 
     <div className="card-content">
