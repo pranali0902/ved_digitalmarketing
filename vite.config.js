@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/ved_digital_marketing/',
+  base:'/ved_digitalmarketing/',
   plugins: [react()],
 })
