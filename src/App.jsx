@@ -93,16 +93,19 @@ const sendEmail = async (e) => {
 
       {/* Hero Section */}
       <section className="hero" id="home">
-        <video
-    className="hero-video"
-    autoPlay
-    muted
-    loop
-    playsInline
-  >
-    <source src="/background.mp4" type="video/mp4" />
-  </video>
-
+       <video
+  className="card-video"
+  autoPlay
+  muted
+  loop
+  playsInline
+>
+  <source
+    src={`${import.meta.env.BASE_URL}background.mp4`}
+    type="video/mp4"
+  />
+</video>
+        
         
         
       </section>
@@ -161,9 +164,19 @@ const sendEmail = async (e) => {
   {/* SEO */}
   <div className="service-row">
     <div className="card">
-      <video className="card-video" autoPlay muted loop playsInline>
-        <source src="/seo1.mp4" type="video/mp4" />
-      </video>
+      <video
+  className="card-video"
+  autoPlay
+  muted
+  loop
+  playsInline
+>
+  <source
+    src={`${import.meta.env.BASE_URL}seo1.mp4`}
+    type="video/mp4"
+  />
+</video>
+      
     </div>
 
     <div className="card-content">
@@ -178,9 +191,20 @@ const sendEmail = async (e) => {
   {/* Social Media Marketing */}
   <div className="service-row">
     <div className="card">
-      <video className="card-video" autoPlay muted loop playsInline>
-        <source src="/social.mp4" type="video/mp4" />
-      </video>
+       <video
+  className="card-video"
+  autoPlay
+  muted
+  loop
+  playsInline
+>
+  <source
+    src={`${import.meta.env.BASE_URL}social.mp4`}
+    type="video/mp4"
+  />
+</video>
+      
+      
     </div>
 
     <div className="card-content">
@@ -215,9 +239,19 @@ const sendEmail = async (e) => {
   {/* Google Ads */}
   <div className="service-row">
     <div className="card">
-      <video className="card-video" autoPlay muted loop playsInline>
-        <source src="/google.mp4" type="video/mp4" />
-      </video>
+      <video
+  className="card-video"
+  autoPlay
+  muted
+  loop
+  playsInline
+>
+  <source
+    src={`${import.meta.env.BASE_URL}google.mp4`}
+    type="video/mp4"
+  />
+</video>
+      
     </div>
 
     <div className="card-content">
