@@ -232,7 +232,13 @@ const sendEmail = async (e) => {
   {/* Website Development */}
   <div className="service-row">
     <div className="card">
-      <video className="card-video" autoPlay muted loop playsInline>
+      <video
+  className="card-video"
+  autoPlay
+  muted
+  loop
+  playsInline
+>
   <source
     src={`${import.meta.env.BASE_URL}website.mp4`}
     type="video/mp4"
