@@ -1,7 +1,7 @@
  
-/* =====================================
+/* =========================================
    1. GLOBAL RESET
-===================================== */
+========================================= */
 
 * {
   margin: 0;
@@ -25,52 +25,63 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* =====================================
+/* =========================================
    2. NAVBAR
-===================================== */
+========================================= */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 8%;
+  width: 100%;
+  min-height: 80px;
+  padding: 10px 6%;
+
   background: linear-gradient(
     90deg,
     #E83E9B,
     #C45AE8,
     #A855F7
   );
+
   position: sticky;
   top: 0;
+  left: 0;
   z-index: 1000;
-  width: 100%;
-  min-height: 80px;
 }
 
 .logo {
-  width: 50px;
+  width: 65px;
+  height: 65px;
   padding: 5px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 30px;
+  justify-content: flex-end;
+  gap: 25px;
+  flex-wrap: nowrap;
 }
 
 .nav-links a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
-  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: 0.3s ease;
 }
 
 .nav-links a:hover {
   color: #A78BFA;
 }
 
-/* =====================================
+/* =========================================
    3. HERO SECTION
-===================================== */
+========================================= */
 
 .hero {
   position: relative;
@@ -101,9 +112,11 @@ body {
     #4169e1,
     #00bfff
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -115,12 +128,14 @@ body {
   line-height: 1.1;
   margin-bottom: 25px;
   max-width: 500px;
+
   background: linear-gradient(
     90deg,
     #ff1493,
     #4169e1,
     #00bfff
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -135,12 +150,14 @@ body {
   line-height: 1.6;
   max-width: 500px;
   margin-bottom: 30px;
+
   background: linear-gradient(
     90deg,
     #ff1493,
     #4169e1,
     #00bfff
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -175,9 +192,9 @@ button:hover {
   text-decoration: none;
 }
 
-/* =====================================
+/* =========================================
    4. SOCIAL ICONS
-===================================== */
+========================================= */
 
 .social-icons {
   display: flex;
@@ -199,9 +216,9 @@ button:hover {
   display: block;
 }
 
-/* =====================================
-   5. COMMON SECTION HEADINGS
-===================================== */
+/* =========================================
+   5. COMMON HEADINGS
+========================================= */
 
 .about h2,
 .services h2,
@@ -211,20 +228,22 @@ button:hover {
 .contact h2 {
   font-size: 38px;
   margin-bottom: 25px;
+
   background: linear-gradient(
     90deg,
     #ff1493,
     #4169e1,
     #00bfff
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* =====================================
+/* =========================================
    6. ABOUT SECTION
-===================================== */
+========================================= */
 
 .about {
   padding: 80px 8%;
@@ -252,6 +271,7 @@ button:hover {
   border-radius: 15px;
   text-align: center;
   border: 2px solid transparent;
+
   background:
     linear-gradient(white, white) padding-box,
     linear-gradient(
@@ -260,6 +280,7 @@ button:hover {
       #8b5cf6,
       #d89b73
     ) border-box;
+
   transition: 0.3s ease;
 }
 
@@ -283,13 +304,14 @@ button:hover {
   line-height: 1.7;
 }
 
-/* =====================================
+/* =========================================
    7. SERVICES SECTION
-===================================== */
+========================================= */
 
 .services {
   padding: 80px 8%;
   text-align: center;
+
   background: linear-gradient(
     135deg,
     #f8f5ff,
@@ -300,47 +322,60 @@ button:hover {
 .service-container {
   display: flex;
   flex-direction: column;
-  gap: 60px;
-  padding: 40px 60px;
+  gap: 50px;
+  padding: 40px 20px;
+  width: 100%;
 }
+
+/* Service Row */
 
 .service-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 35px;
   width: 100%;
+  min-width: 0;
 }
+
+/* Video Card */
 
 .service-row .card {
   width: 50%;
   height: 300px;
+  min-width: 0;
   padding: 0;
   overflow: hidden;
   border-radius: 15px;
-  flex-shrink: 0;
+  flex: 1 1 50%;
+  background: #111827;
 }
+
+/* Video */
 
 .card-video {
   display: block;
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
-  opacity: 1;
-  visibility: visible;
-  position: relative;
-  z-index: 1;
+  object-position: center;
+  border-radius: 15px;
 }
+
+/* Service Content */
 
 .service-row .card-content {
   width: 50%;
-  padding: 30px;
+  min-width: 0;
+  flex: 1 1 50%;
+  padding: 25px;
   text-align: left;
 }
 
 .card-content h3 {
   font-size: 28px;
   color: #222;
+  margin-bottom: 15px;
 }
 
 .card-content p {
@@ -349,13 +384,15 @@ button:hover {
   color: #555;
 }
 
+/* Alternate Service Rows */
+
 .service-row:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-/* =====================================
+/* =========================================
    8. WHY US SECTION
-===================================== */
+========================================= */
 
 .why-us {
   padding: 80px 8%;
@@ -376,6 +413,7 @@ button:hover {
   padding: 25px;
   border: 2px solid transparent;
   border-radius: 10px;
+
   background:
     linear-gradient(white, white) padding-box,
     linear-gradient(
@@ -396,13 +434,14 @@ button:hover {
   line-height: 1.5;
 }
 
-/* =====================================
+/* =========================================
    9. PORTFOLIO SECTION
-===================================== */
+========================================= */
 
 .portfolio {
   padding: 80px 8%;
   text-align: center;
+
   background: linear-gradient(
     135deg,
     #f8f5ff,
@@ -424,6 +463,7 @@ button:hover {
   background: white;
   border-radius: 12px;
   border: 3px solid transparent;
+
   background:
     linear-gradient(white, white) padding-box,
     linear-gradient(
@@ -444,9 +484,9 @@ button:hover {
   line-height: 1.6;
 }
 
-/* =====================================
+/* =========================================
    10. TESTIMONIALS SECTION
-===================================== */
+========================================= */
 
 .Testimonials {
   padding: 80px 8%;
@@ -467,6 +507,7 @@ button:hover {
   background: white;
   border-radius: 12px;
   border: 3px solid transparent;
+
   background:
     linear-gradient(white, white) padding-box,
     linear-gradient(
@@ -477,13 +518,14 @@ button:hover {
     ) border-box;
 }
 
-/* =====================================
+/* =========================================
    11. CONTACT SECTION
-===================================== */
+========================================= */
 
 .contact {
   padding: 80px 8%;
   text-align: center;
+
   background: linear-gradient(
     135deg,
     #f8f5ff,
@@ -527,9 +569,9 @@ button:hover {
   outline: none;
 }
 
-/* =====================================
+/* =========================================
    12. FOOTER
-===================================== */
+========================================= */
 
 footer {
   text-align: center;
@@ -555,43 +597,71 @@ footer p {
   gap: 25px;
 }
 
-/* =====================================
+/* =========================================
    13. LAPTOP RESPONSIVE
-===================================== */
+========================================= */
 
 @media screen and (max-width: 1200px) {
 
-  .service-container {
-    padding: 30px;
-  }
-
-  .service-row {
-    gap: 25px;
-  }
-
-  .hero h1 {
-    font-size: 50px;
-  }
-
-}
-
-/* =====================================
-   14. TABLET RESPONSIVE
-===================================== */
-
-@media screen and (max-width: 1024px) {
-
   .navbar {
-    padding: 0 4%;
+    padding: 10px 4%;
   }
 
   .nav-links {
     gap: 18px;
   }
 
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .service-container {
+    padding: 30px 10px;
+  }
+
+  .service-row {
+    gap: 25px;
+  }
+
+  .service-row .card {
+    height: 280px;
+  }
+
+}
+
+/* =========================================
+   14. TABLET RESPONSIVE
+========================================= */
+
+@media screen and (max-width: 1024px) {
+
+  .navbar {
+    padding: 10px 3%;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 55px;
+    height: 55px;
+  }
+
   .service-container {
     padding: 20px;
-    gap: 40px;
+  }
+
+  .service-row {
+    gap: 20px;
+  }
+
+  .service-row .card {
+    height: 250px;
   }
 
   .service-row .card-content {
@@ -608,9 +678,9 @@ footer p {
 
 }
 
-/* =====================================
+/* =========================================
    15. MOBILE RESPONSIVE
-===================================== */
+========================================= */
 
 @media screen and (max-width: 768px) {
 
@@ -619,16 +689,25 @@ footer p {
   .navbar {
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
-    height: auto;
-    padding: 15px;
+    gap: 10px;
+    padding: 12px;
+    min-height: auto;
+  }
+
+  .logo {
+    width: 55px;
+    height: 55px;
   }
 
   .nav-links {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 14px;
   }
 
   /* Hero */
@@ -663,7 +742,7 @@ footer p {
     gap: 20px;
   }
 
-  /* Section headings */
+  /* Headings */
 
   .about h2,
   .services h2,
@@ -682,7 +761,7 @@ footer p {
 
   .service-container {
     padding: 20px 0;
-    gap: 40px;
+    gap: 35px;
   }
 
   .service-row,
@@ -691,20 +770,21 @@ footer p {
     gap: 15px;
   }
 
-  .service-row .card,
-  .service-row .card-content {
-    width: 100%;
-  }
-
   .service-row .card {
+    width: 100%;
+    flex: none;
     height: 230px;
   }
 
   .card-video {
-    height: 230px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .service-row .card-content {
+    width: 100%;
+    flex: none;
     padding: 15px 5px;
   }
 
@@ -769,11 +849,19 @@ footer p {
 
 }
 
-/* =====================================
-   16. SMALL MOBILE RESPONSIVE
-===================================== */
+/* =========================================
+   16. SMALL MOBILE
+========================================= */
 
 @media screen and (max-width: 480px) {
+
+  .nav-links {
+    gap: 9px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
 
   .hero h1 {
     font-size: 30px;
@@ -781,14 +869,6 @@ footer p {
 
   .hero-text {
     font-size: 16px;
-  }
-
-  .nav-links {
-    gap: 10px;
-  }
-
-  .nav-links a {
-    font-size: 14px;
   }
 
   .about h2,
@@ -801,10 +881,6 @@ footer p {
   }
 
   .service-row .card {
-    height: 200px;
-  }
-
-  .card-video {
     height: 200px;
   }
 

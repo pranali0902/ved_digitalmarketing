@@ -100,10 +100,13 @@ const sendEmail = async (e) => {
     muted
     loop
     playsInline
-    onError={(e) => console.log("Video error:", e.currentTarget.error)}
-    onLoadedData={() => console.log("Video loaded successfully")}
+    preload="auto"
   >
-    <source src="background.mp4" type="video/mp4" />
+    <source
+      src={`${import.meta.env.BASE_URL}your-video.mp4`}
+      type="video/mp4"
+    />
+    Your browser does not support video.
   </video>
 </section>
 
