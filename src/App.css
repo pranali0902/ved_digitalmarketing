@@ -776,14 +776,50 @@ footer p {
     object-fit: contain;
   }
 
-  /* CONTACT */
+  @media screen and (max-width: 768px) {
 
-  .contact input,
-  .contact textarea,
-  .contact select {
+  .contact {
+    padding: 45px 15px;
+  }
+
+  .contact h2 {
+    font-size: 26px;
+  }
+
+  .contact form {
     width: 100%;
     max-width: 100%;
+    padding: 22px 16px;
+    gap: 14px;
   }
+
+  .contact input,
+  .contact select,
+  .contact textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .contact button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .contact {
+    padding: 35px 12px;
+  }
+
+  .contact form {
+    padding: 18px 12px;
+  }
+
+  .contact h2 {
+    font-size: 23px;
+  }
+}
 
   /* FOOTER */
 
@@ -871,8 +907,8 @@ footer p {
 
 /* All paragraph text */
 p {
-  color: #333333 !important;
-  -webkit-text-fill-color: #333333 !important;
+  color: #f7f1f1f4 !important;
+  -webkit-text-fill-color:#f7f1f1f4 !important;
 }
 
 /* All headings */
@@ -895,8 +931,8 @@ h1, h2, h3, h4 {
 }
 
 .card-content p {
-  color: #333333 !important;
-  -webkit-text-fill-color: #333333 !important;
+  color: #f7f1f1f4 !important;
+  -webkit-text-fill-color: #f7f1f1f4 !important;
 }
 
 /* Navbar */
@@ -916,19 +952,27 @@ footer h3 {
   -webkit-text-fill-color: #ffffff !important;
 }
 
-/* Form */
+/* Contact form */
 .contact input,
 .contact textarea,
 .contact select {
-  color: #111111 !important;
-  background-color: white !important;
-  -webkit-text-fill-color: #111111 !important;
+  color: #222222 !important;
+  -webkit-text-fill-color: #222222 !important;
+  background: #ffffff !important;
 }
 
 .contact input::placeholder,
 .contact textarea::placeholder {
   color: #666666 !important;
   -webkit-text-fill-color: #666666 !important;
+}
+
+
+
+/* Buttons */
+button {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
 }
 
 
