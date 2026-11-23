@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px){
+
+
 
 html,
 body,
@@ -298,7 +299,7 @@ button:hover {
 }
 
 /* Mobile responsive */
-@media (max-width: 768px) {
+
 
   .service-container {
     padding: 20px;
@@ -324,7 +325,7 @@ button:hover {
     padding: 15px 5px;
   }
 
-}
+
 
 /* Why Us */
 
@@ -518,7 +519,7 @@ footer p {
 
 /* Mobile */
 
-@media (max-width: 768px) {
+
 
   .navbar {
     flex-direction: column;
@@ -560,7 +561,7 @@ footer p {
   .contact textarea {
     width: 100%;
   }
-}
+
 
 .about-features {
   display: grid;
@@ -608,7 +609,8 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
-}
+
+
 
 
 
