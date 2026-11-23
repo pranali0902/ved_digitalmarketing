@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px){
+
 html,
 body,
 #root {
@@ -605,6 +607,7 @@ footer p {
   .about-features {
     grid-template-columns: 1fr;
   }
+}
 }
 
 
