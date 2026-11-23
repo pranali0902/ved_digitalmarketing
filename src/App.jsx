@@ -95,17 +95,14 @@ const sendEmail = async (e) => {
       
 <section className="hero" id="home">
   <video
-    className="hero-video"
+    className="bg-video"
     autoPlay
     muted
     loop
     playsInline
-  >
-    <source
-      src={`${import.meta.env.BASE_URL}background.mp4`}
-      type="video/mp4"
-    />
-  </video>
+>
+    <source src="/your-video.mp4" type="video/mp4" />
+</video>
 </section>
 
 
@@ -484,30 +481,29 @@ const sendEmail = async (e) => {
         
         <h3>Follow Us</h3>
         
-        <a href='https://www.instagram.com/ved_digital_agency/'
-        target='_blank' 
-        rel='noopener noreferrer'
-        >
-          <img src='/public/insta.jpg'
-          alt='/instagram'
-          width="30"
-          
-          />
+        <a
+  href="https://www.instagram.com/ved_digital_agency/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="/insta.jpg"
+    alt="Instagram"
+    width="30"
+  />
+</a>
 
-        </a>
-          
-        
-        <a href='https://www.linkedin.com/company/vedant-soft-solutions-pvt-ltd/'
-        target='_blank' 
-        rel='noopener noreferrer'
-        >
-          <img src='/public/all.jpg'
-          alt='/youtube'
-          width="30"
-          />
-        
-
-        </a>
+<a
+  href="https://www.linkedin.com/company/vedant-soft-solutions-pvt-ltd/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="/all.jpg"
+    alt="LinkedIn"
+    width="30"
+  />
+</a>
        <p>📧 info@vedantsoft.in</p>
        <p>📞 (+91) 7666-99-6668</p>
 
