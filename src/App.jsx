@@ -103,7 +103,7 @@ const sendEmail = async (e) => {
     preload="auto"
   >
     <source
-      src={`${import.meta.env.BASE_URL}your-video.mp4`}
+      src={`${import.meta.env.BASE_URL}background.mp4`}
       type="video/mp4"
     />
     Your browser does not support video.
