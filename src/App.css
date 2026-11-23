@@ -590,5 +590,25 @@ footer p {
 }
 
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  display: block;
+}
+
+
 
 

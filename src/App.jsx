@@ -473,41 +473,30 @@ const sendEmail = async (e) => {
     
 
         </div>
-        <div className='vedinfo'
-        style={{
-          textAlign:'left'
-        }}
-        >
-        
-        <h3>Follow Us</h3>
-        
-        <a
-  href="https://www.instagram.com/ved_digital_agency/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img
-    src="/insta.jpg"
-    alt="Instagram"
-    width="30"
-  />
-</a>
+        <div className="vedinfo">
+  <h3>Follow Us</h3>
 
-<a
-  href="https://www.linkedin.com/company/vedant-soft-solutions-pvt-ltd/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <img
-    src="/all.jpg"
-    alt="LinkedIn"
-    width="30"
-  />
-</a>
-       <p>📧 info@vedantsoft.in</p>
-       <p>📞 (+91) 7666-99-6668</p>
+  <div className="social-icons">
+    <a
+      href="https://www.instagram.com/ved_digital_agency/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src="/insta.jpg" alt="Instagram" />
+    </a>
 
-        </div>
+    <a
+      href="https://www.linkedin.com/company/vedant-soft-solutions-pvt-ltd/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img src="/all.jpg" alt="LinkedIn" />
+    </a>
+  </div>
+
+  <p>📧 info@vedantsoft.in</p>
+  <p>📞 (+91) 7666-99-6668</p>
+</div>
         </div>
       </footer>
     </div>
