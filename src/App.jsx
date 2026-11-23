@@ -111,6 +111,14 @@ const sendEmail = async (e) => {
   {/* Homepage Content */}
 
   <div className="hero-content">
+    <div className="logo1">
+          <img src='ved.jpeg'
+          alt='logo1'
+          
+          
+          />
+      </div>
+
 
     <p className="small-title">
       WELCOME TO OUR DIGITAL AGENCY
@@ -129,7 +137,7 @@ const sendEmail = async (e) => {
 
     <div className="hero-buttons">
 
-      <a href="#contact" className="outline-btn">
+      <a href="#contact" className="outline-btn1">
         Get Started
       </a>
        
