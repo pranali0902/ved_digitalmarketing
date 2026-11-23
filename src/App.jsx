@@ -74,8 +74,8 @@ const sendEmail = async (e) => {
         <div className="logo">
           <img src='ved.jpeg'
           alt='logo'
-          width="90"
-          height="80"
+          width="70"
+          height="60"
           
           
           />
