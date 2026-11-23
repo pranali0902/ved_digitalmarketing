@@ -776,7 +776,7 @@ footer p {
     object-fit: contain;
   }
 
-  @media screen and (max-width: 768px) {
+ /* @media screen and (max-width: 768px) {
 
   .contact {
     padding: 45px 15px;
@@ -952,28 +952,50 @@ footer h3 {
   -webkit-text-fill-color: #ffffff !important;
 }
 
-/* Contact form */
+.contact {
+  padding: 80px 8%;
+  text-align: center;
+  border: 2px solid;
+   background:linear-gradient(135deg,#f8f5ff,#eeeaff);
+}
+
 .contact input,
-.contact textarea,
-.contact select {
-  color: #222222 !important;
-  -webkit-text-fill-color: #222222 !important;
-  background: #ffffff !important;
+.contact textarea {
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 15px;
+  border: 2px solid;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #818cf8;
+  color: #0f1010;
+  
 }
 
-.contact input::placeholder,
-.contact textarea::placeholder {
-  color: #666666 !important;
-  -webkit-text-fill-color: #666666 !important;
+.contact textarea {
+  height: 130px;
+  resize: none;
+}
+.contact select{
+  width: 80%;
+  max-width:600px ;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 80px;
+  font-size: 16px;
+  background: #818cf8;
+}
+.contact select:focus{
+  outline: none;
+
+
 }
 
-
-
-/* Buttons */
-button {
-  color: #ffffff !important;
-  -webkit-text-fill-color: #ffffff !important;
-}
 
 
 
