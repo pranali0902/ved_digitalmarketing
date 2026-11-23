@@ -108,6 +108,40 @@ const sendEmail = async (e) => {
     />
     Your browser does not support video.
   </video>
+  {/* Homepage Content */}
+
+  <div className="hero-content">
+
+    <p className="small-title">
+      WELCOME TO OUR DIGITAL AGENCY
+    </p>
+
+    <h1>
+      Grow Your Business With
+      <span> Digital Innovation</span>
+    </h1>
+
+    <p className="hero-text">
+      We create modern websites, creative designs
+      and powerful digital marketing strategies
+      to help your business grow.
+    </p>
+
+    <div className="hero-buttons">
+
+      <button>
+        Get Started
+      </button>
+
+      <a href="#services" className="outline-btn">
+        Our Services
+      </a>
+
+    </div>
+
+   
+
+  </div>
 </section>
 
 
