@@ -94,6 +94,9 @@ const sendEmail = async (e) => {
       {/* Hero Section */}
       
 <section className="hero" id="home">
+  <p className="small-title">
+      WELCOME TO OUR DIGITAL AGENCY
+    </p>
   <video
     className="bg-video"
     autoPlay
