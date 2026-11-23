@@ -893,3 +893,24 @@ footer p {
   }
 
 }
+
+
+/* Hide homepage background video on mobile */
+
+@media screen and (max-width: 768px) {
+
+  .bg-video {
+    display: none !important;
+  }
+
+  .hero {
+    background: linear-gradient(
+      135deg,
+      #fce7f3,
+      #ede9fe,
+      #dbeafe
+    );
+  }
+
+}
+
