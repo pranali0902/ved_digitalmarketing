@@ -965,10 +965,45 @@ footer p {
     text-align: center;
   }
 
-  .logo1{
-    width:20px;
-    height:10px;
+  
 
+}
+@media screen and (max-width: 768px) {
+
+  /* Hide navbar logo on mobile */
+
+  .navbar .logo {
+    display: none;
+  }
+
+  /* Show homepage logo */
+
+  .logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .logo1 img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+
+}
+
+/* Desktop */
+
+@media screen and (min-width: 769px) {
+
+  .navbar .logo {
+    display: block;
+  }
+
+  .logo1 {
+    display: none;
   }
 
 }
