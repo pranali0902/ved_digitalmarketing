@@ -632,6 +632,12 @@ footer p {
     height: auto;
     min-height: 100px;
     padding: 8px 10px;
+    background: linear-gradient(
+    90deg,
+    #E83E9B,
+    #C45AE8,
+    #A855F7
+  );
   }
 
   .logo img {
@@ -859,6 +865,72 @@ footer p {
   }
 
 }
+
+
+/* ===== FORCE VISIBLE TEXT COLORS ===== */
+
+/* All paragraph text */
+p {
+  color: #333333 !important;
+  -webkit-text-fill-color: #333333 !important;
+}
+
+/* All headings */
+h1, h2, h3, h4 {
+  color: #4f46e5 !important;
+  -webkit-text-fill-color: #4f46e5 !important;
+}
+
+/* Section labels */
+.small-title {
+  background: none !important;
+  color: #e83e9b !important;
+  -webkit-text-fill-color: #e83e9b !important;
+}
+
+/* Service text */
+.card-content h3 {
+  color: #4f46e5 !important;
+  -webkit-text-fill-color: #4f46e5 !important;
+}
+
+.card-content p {
+  color: #333333 !important;
+  -webkit-text-fill-color: #333333 !important;
+}
+
+/* Navbar */
+.nav-links a {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+
+/* Footer */
+footer p {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+footer h3 {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Form */
+.contact input,
+.contact textarea,
+.contact select {
+  color: #111111 !important;
+  background-color: white !important;
+  -webkit-text-fill-color: #111111 !important;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #666666 !important;
+  -webkit-text-fill-color: #666666 !important;
+}
+
 
 
 
