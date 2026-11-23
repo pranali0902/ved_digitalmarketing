@@ -129,9 +129,10 @@ const sendEmail = async (e) => {
 
     <div className="hero-buttons">
 
-      <button>
+      <a href="#contact" className="outline-btn">
         Get Started
-      </button>
+      </a>
+       
 
       <a href="#services" className="outline-btn">
         Our Services
