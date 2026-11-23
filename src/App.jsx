@@ -92,23 +92,22 @@ const sendEmail = async (e) => {
       </nav>
 
       {/* Hero Section */}
-      <section className="hero" id="home">
-       <video
-  className="card-video"
-  autoPlay
-  muted
-  loop
-  playsInline
->
-  <source
-    src={`${import.meta.env.BASE_URL}background.mp4`}
-    type="video/mp4"
-  />
-</video>
-        
-        
-        
-      </section>
+      
+<section className="hero" id="home">
+  <video
+    className="hero-video"
+    autoPlay
+    muted
+    loop
+    playsInline
+  >
+    <source
+      src={`${import.meta.env.BASE_URL}background.mp4`}
+      type="video/mp4"
+    />
+  </video>
+</section>
+
 
       {/* About */}
       <section className="about" id="about">
