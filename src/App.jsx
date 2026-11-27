@@ -446,8 +446,9 @@ const sendEmail = async (e) => {
           height="100"
           />
           <p>Amazing experience working with this team! Their creative strategies helped improve our online presence and connect with more customers.</p>
+         
          </div>
-          <div className="Testimonials-container1">
+          <div className="Testimonials-container">
            <img src='wow club.jpeg'
           alt='logo'
           width="100"
