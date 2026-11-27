@@ -256,6 +256,7 @@ button:hover {
   margin: auto;
   font-size: 18px;
   line-height: 1.8;
+  color: #312E81;
 }
 
 .about-features {
@@ -300,7 +301,7 @@ button:hover {
 }
 
 .about-box p {
-  color: #fce80c;
+  color: #312E81;
   line-height: 1.7;
 }
 
@@ -381,7 +382,7 @@ button:hover {
 .card-content p {
   font-size: 17px;
   line-height: 1.7;
-  color: #f5e506;
+  color: #312E81;
 }
 
 /* Alternate Service Rows */
@@ -430,7 +431,7 @@ button:hover {
 }
 
 .why-container p {
-  color: #f4f816;
+  color: #312E81;
   line-height: 1.5;
 }
 
@@ -480,7 +481,7 @@ button:hover {
 }
 
 .portfolio-card p {
-  color: #f8ec14;
+  color: #312E81;
   line-height: 1.6;
 }
 
