@@ -438,7 +438,7 @@ const sendEmail = async (e) => {
 
         <h2>Our Digital Marketing Client</h2>
 
-        <div className="Testimonials-container">
+        <div className="portfolio-card">
           
            <img src='wow.jpeg'
           alt='logo'
@@ -448,7 +448,7 @@ const sendEmail = async (e) => {
           <p>Amazing experience working with this team! Their creative strategies helped improve our online presence and connect with more customers.</p>
          
          </div>
-          <div className="Testimonials-container">
+          <div className="portfolio-card">
            <img src='wow club.jpeg'
           alt='logo'
           width="100"
