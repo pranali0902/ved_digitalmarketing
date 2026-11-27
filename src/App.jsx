@@ -445,7 +445,8 @@ const sendEmail = async (e) => {
           width="100"
           height="100"
           />
-          <p>❝Amazing experience working with this team! Their creative strategies helped improve our online presence and connect with more customers.❞</p>
+          <span className="quote-icon">❝</span>
+          <p>Amazing experience working with this team! Their creative strategies helped improve our online presence and connect with more customers.</p>
          
          </div>
           <div className="portfolio-card">
@@ -454,8 +455,8 @@ const sendEmail = async (e) => {
           width="100"
           height="100"
           />
-          
-        <p>❝From content creation to social media management, everything was handled professionally. Truly outstanding service!❞</p>
+          <span className="quote-icon">❝</span>
+        <p>From content creation to social media management, everything was handled professionally. Truly outstanding service!</p>
           
         </div>
         </div>
