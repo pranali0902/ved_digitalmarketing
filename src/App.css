@@ -39,9 +39,9 @@ body {
 
   background: linear-gradient(
     90deg,
-    #E83E9B,
-    #C45AE8,
-    #A855F7
+    #312E81,
+    #6D28D9,
+    #C084FC
   );
 
   position: sticky;
@@ -106,7 +106,13 @@ body {
 }
 
 .small-title {
-  color: #312E81;
+  background: linear-gradient(
+    90deg,
+    #312E81,
+    #6D28D9,
+    #C084FC
+  );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -123,7 +129,12 @@ body {
   margin-bottom: 25px;
   max-width: 500px;
 
- color: #312E81;
+  background: linear-gradient(
+    90deg,
+    #312E81,
+    #6D28D9,
+    #C084FC
+  );
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -140,7 +151,12 @@ body {
   max-width: 500px;
   margin-bottom: 30px;
 
-  color: #312E81;
+  background: linear-gradient(
+    90deg,
+    #312E81,
+    #6D28D9,
+    #C084FC
+  );
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -902,7 +918,7 @@ footer p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #312E81;
+    
 
     background: linear-gradient(
       135deg,
